@@ -11,7 +11,7 @@ server = app.server
 app.title = "Credit Scoring Dashboard"
 
 
-API_URL = "http://127.0.0.1:8000"
+API_URL = "https://projetoc6.onrender.com"
 
 try:
     ref = pd.read_csv("referentiel.csv", encoding="ISO-8859-1")
