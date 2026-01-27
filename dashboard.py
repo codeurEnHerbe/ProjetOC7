@@ -7,7 +7,9 @@ import plotly.graph_objects as go
 import pandas as pd
 
 app = dash.Dash(__name__)
+server = app.server
 app.title = "Credit Scoring Dashboard"
+
 
 API_URL = "http://127.0.0.1:8000"
 
