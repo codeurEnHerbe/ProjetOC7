@@ -14,7 +14,7 @@ app.title = "Credit Scoring Dashboard"
 API_URL = "https://projetoc6.onrender.com"
 
 try:
-    ref = pd.read_csv("referentiel.csv", encoding="ISO-8859-1")
+    ref = pd.read_csv("Auriac_Rafael_1_referentiel_022026.csv", encoding="ISO-8859-1")
     ref_dict = dict(zip(ref["Row"], ref["Description"]))
 except:
     ref_dict = {}
